@@ -1,0 +1,654 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F08828F18D37681008A4FA1 /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F08828E18D37681008A4FA1 /* TPKeyboardAvoidingScrollView.m */; };
+		1F08829218D376A8008A4FA1 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F08829118D376A8008A4FA1 /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
+		1F21741B18CE3C770075328D /* DateInputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F21741A18CE3C770075328D /* DateInputViewController.m */; };
+		1F36B55618D735D200A19BE1 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F36B55518D735D200A19BE1 /* Security.framework */; };
+		1F36B55918D7360400A19BE1 /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F36B55818D7360400A19BE1 /* KeychainItemWrapper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1F42CAFC18CF684700AC1F85 /* AppVariables.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F42CAFB18CF684700AC1F85 /* AppVariables.m */; };
+		1F42CAFF18CF70D000AC1F85 /* lowFareAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F42CAFE18CF70D000AC1F85 /* lowFareAPI.m */; };
+		1F97AED118C116C100B618F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F97AED018C116C100B618F4 /* Foundation.framework */; };
+		1F97AED318C116C100B618F4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F97AED218C116C100B618F4 /* CoreGraphics.framework */; };
+		1F97AED518C116C100B618F4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F97AED418C116C100B618F4 /* UIKit.framework */; };
+		1F97AEDB18C116C100B618F4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F97AED918C116C100B618F4 /* InfoPlist.strings */; };
+		1F97AEDD18C116C100B618F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F97AEDC18C116C100B618F4 /* main.m */; };
+		1F97AEE118C116C100B618F4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F97AEE018C116C100B618F4 /* AppDelegate.m */; };
+		1F97AEE418C116C100B618F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F97AEE218C116C100B618F4 /* Main.storyboard */; };
+		1F97AEE718C116C100B618F4 /* AirfareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F97AEE618C116C100B618F4 /* AirfareViewController.m */; };
+		1F97AEE918C116C100B618F4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F97AEE818C116C100B618F4 /* Images.xcassets */; };
+		1F97AEF018C116C100B618F4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F97AEEF18C116C100B618F4 /* XCTest.framework */; };
+		1F97AEF118C116C100B618F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F97AED018C116C100B618F4 /* Foundation.framework */; };
+		1F97AEF218C116C100B618F4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F97AED418C116C100B618F4 /* UIKit.framework */; };
+		1F97AEFA18C116C100B618F4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F97AEF818C116C100B618F4 /* InfoPlist.strings */; };
+		1F97AEFC18C116C100B618F4 /* Airfare8BallTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F97AEFB18C116C100B618F4 /* Airfare8BallTests.m */; };
+		1F97AF0A18C119AC00B618F4 /* ResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F97AF0918C119AC00B618F4 /* ResultViewController.m */; };
+		1FC518AF18C7A6350057F183 /* AirFareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC518AE18C7A6350057F183 /* AirFareView.m */; };
+		1FD34C2818D0CD1A00648A09 /* 0-responseArt-00.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FD34C1518D0CD1A00648A09 /* 0-responseArt-00.png */; };
+		1FD34C2918D0CD1A00648A09 /* 1-responseArt-00.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FD34C1618D0CD1A00648A09 /* 1-responseArt-00.png */; };
+		1FD34C2A18D0CD1A00648A09 /* 2-responseArt-00.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FD34C1718D0CD1A00648A09 /* 2-responseArt-00.png */; };
+		1FD34C2B18D0CD1A00648A09 /* 0-responseArt-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FD34C1818D0CD1A00648A09 /* 0-responseArt-01.png */; };
+		1FD34C2C18D0CD1A00648A09 /* 0-responseArt-02.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FD34C1918D0CD1A00648A09 /* 0-responseArt-02.png */; };
+		1FD34C2D18D0CD1A00648A09 /* 0-responseArt-03.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FD34C1A18D0CD1A00648A09 /* 0-responseArt-03.png */; };
+		1FD34C2E18D0CD1A00648A09 /* 0-responseArt-04.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FD34C1B18D0CD1A00648A09 /* 0-responseArt-04.png */; };
+		1FD34C2F18D0CD1A00648A09 /* 1-responseArt-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FD34C1C18D0CD1A00648A09 /* 1-responseArt-01.png */; };
+		1FD34C3018D0CD1A00648A09 /* 1-responseArt-02.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FD34C1D18D0CD1A00648A09 /* 1-responseArt-02.png */; };
+		1FD34C3118D0CD1A00648A09 /* 1-responseArt-03.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FD34C1E18D0CD1A00648A09 /* 1-responseArt-03.png */; };
+		1FD34C3218D0CD1A00648A09 /* 1-responseArt-04.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FD34C1F18D0CD1A00648A09 /* 1-responseArt-04.png */; };
+		1FD34C3318D0CD1A00648A09 /* 1-responseArt-05.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FD34C2018D0CD1A00648A09 /* 1-responseArt-05.png */; };
+		1FD34C3418D0CD1A00648A09 /* 1-responseArt-06.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FD34C2118D0CD1A00648A09 /* 1-responseArt-06.png */; };
+		1FD34C3518D0CD1A00648A09 /* 1-responseArt-07.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FD34C2218D0CD1A00648A09 /* 1-responseArt-07.png */; };
+		1FD34C3618D0CD1A00648A09 /* 1-responseArt-08.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FD34C2318D0CD1A00648A09 /* 1-responseArt-08.png */; };
+		1FD34C3718D0CD1A00648A09 /* 2-responseArt-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FD34C2418D0CD1A00648A09 /* 2-responseArt-01.png */; };
+		1FD34C3818D0CD1A00648A09 /* 2-responseArt-02.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FD34C2518D0CD1A00648A09 /* 2-responseArt-02.png */; };
+		1FD34C3918D0CD1A00648A09 /* 2-responseArt-03.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FD34C2618D0CD1A00648A09 /* 2-responseArt-03.png */; };
+		1FD34C3A18D0CD1A00648A09 /* 2-responseArt-04.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FD34C2718D0CD1A00648A09 /* 2-responseArt-04.png */; };
+		1FF0B59F18DB2FBC00CE4FB1 /* SorceryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0B59E18DB2FBC00CE4FB1 /* SorceryViewController.m */; };
+		1FF0B5A218DB2FD000CE4FB1 /* SorceryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0B5A118DB2FD000CE4FB1 /* SorceryView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F97AEF318C116C100B618F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F97AEC518C116C100B618F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F97AECC18C116C100B618F4;
+			remoteInfo = Airfare8Ball;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F08828D18D37681008A4FA1 /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		1F08828E18D37681008A4FA1 /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		1F08829018D376A8008A4FA1 /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
+		1F08829118D376A8008A4FA1 /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
+		1F21741918CE3C770075328D /* DateInputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateInputViewController.h; sourceTree = "<group>"; };
+		1F21741A18CE3C770075328D /* DateInputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateInputViewController.m; sourceTree = "<group>"; };
+		1F36B55518D735D200A19BE1 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		1F36B55718D7360400A19BE1 /* KeychainItemWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainItemWrapper.h; sourceTree = "<group>"; };
+		1F36B55818D7360400A19BE1 /* KeychainItemWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainItemWrapper.m; sourceTree = "<group>"; };
+		1F42CAF718CF67A200AC1F85 /* AppConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppConstants.h; sourceTree = "<group>"; };
+		1F42CAFA18CF684700AC1F85 /* AppVariables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppVariables.h; sourceTree = "<group>"; };
+		1F42CAFB18CF684700AC1F85 /* AppVariables.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppVariables.m; sourceTree = "<group>"; };
+		1F42CAFD18CF70CF00AC1F85 /* lowFareAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = lowFareAPI.h; path = services/lowFareAPI.h; sourceTree = "<group>"; };
+		1F42CAFE18CF70D000AC1F85 /* lowFareAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = lowFareAPI.m; path = services/lowFareAPI.m; sourceTree = "<group>"; };
+		1F97AECD18C116C100B618F4 /* Airfare8Ball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Airfare8Ball.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F97AED018C116C100B618F4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1F97AED218C116C100B618F4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1F97AED418C116C100B618F4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1F97AED818C116C100B618F4 /* Airfare8Ball-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Airfare8Ball-Info.plist"; sourceTree = "<group>"; };
+		1F97AEDA18C116C100B618F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1F97AEDC18C116C100B618F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1F97AEDE18C116C100B618F4 /* Airfare8Ball-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Airfare8Ball-Prefix.pch"; sourceTree = "<group>"; };
+		1F97AEDF18C116C100B618F4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1F97AEE018C116C100B618F4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1F97AEE318C116C100B618F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F97AEE518C116C100B618F4 /* AirfareViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AirfareViewController.h; sourceTree = "<group>"; };
+		1F97AEE618C116C100B618F4 /* AirfareViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AirfareViewController.m; sourceTree = "<group>"; };
+		1F97AEE818C116C100B618F4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1F97AEEE18C116C100B618F4 /* Airfare8BallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Airfare8BallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F97AEEF18C116C100B618F4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1F97AEF718C116C100B618F4 /* Airfare8BallTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Airfare8BallTests-Info.plist"; sourceTree = "<group>"; };
+		1F97AEF918C116C100B618F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1F97AEFB18C116C100B618F4 /* Airfare8BallTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Airfare8BallTests.m; sourceTree = "<group>"; };
+		1F97AF0818C119AC00B618F4 /* ResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultViewController.h; sourceTree = "<group>"; };
+		1F97AF0918C119AC00B618F4 /* ResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultViewController.m; sourceTree = "<group>"; };
+		1F97AF0C18C11A7800B618F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		1FC518AD18C7A6350057F183 /* AirFareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AirFareView.h; sourceTree = "<group>"; };
+		1FC518AE18C7A6350057F183 /* AirFareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AirFareView.m; sourceTree = "<group>"; };
+		1FD34C1518D0CD1A00648A09 /* 0-responseArt-00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "0-responseArt-00.png"; sourceTree = "<group>"; };
+		1FD34C1618D0CD1A00648A09 /* 1-responseArt-00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1-responseArt-00.png"; sourceTree = "<group>"; };
+		1FD34C1718D0CD1A00648A09 /* 2-responseArt-00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2-responseArt-00.png"; sourceTree = "<group>"; };
+		1FD34C1818D0CD1A00648A09 /* 0-responseArt-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "0-responseArt-01.png"; sourceTree = "<group>"; };
+		1FD34C1918D0CD1A00648A09 /* 0-responseArt-02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "0-responseArt-02.png"; sourceTree = "<group>"; };
+		1FD34C1A18D0CD1A00648A09 /* 0-responseArt-03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "0-responseArt-03.png"; sourceTree = "<group>"; };
+		1FD34C1B18D0CD1A00648A09 /* 0-responseArt-04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "0-responseArt-04.png"; sourceTree = "<group>"; };
+		1FD34C1C18D0CD1A00648A09 /* 1-responseArt-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1-responseArt-01.png"; sourceTree = "<group>"; };
+		1FD34C1D18D0CD1A00648A09 /* 1-responseArt-02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1-responseArt-02.png"; sourceTree = "<group>"; };
+		1FD34C1E18D0CD1A00648A09 /* 1-responseArt-03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1-responseArt-03.png"; sourceTree = "<group>"; };
+		1FD34C1F18D0CD1A00648A09 /* 1-responseArt-04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1-responseArt-04.png"; sourceTree = "<group>"; };
+		1FD34C2018D0CD1A00648A09 /* 1-responseArt-05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1-responseArt-05.png"; sourceTree = "<group>"; };
+		1FD34C2118D0CD1A00648A09 /* 1-responseArt-06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1-responseArt-06.png"; sourceTree = "<group>"; };
+		1FD34C2218D0CD1A00648A09 /* 1-responseArt-07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1-responseArt-07.png"; sourceTree = "<group>"; };
+		1FD34C2318D0CD1A00648A09 /* 1-responseArt-08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1-responseArt-08.png"; sourceTree = "<group>"; };
+		1FD34C2418D0CD1A00648A09 /* 2-responseArt-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2-responseArt-01.png"; sourceTree = "<group>"; };
+		1FD34C2518D0CD1A00648A09 /* 2-responseArt-02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2-responseArt-02.png"; sourceTree = "<group>"; };
+		1FD34C2618D0CD1A00648A09 /* 2-responseArt-03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2-responseArt-03.png"; sourceTree = "<group>"; };
+		1FD34C2718D0CD1A00648A09 /* 2-responseArt-04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2-responseArt-04.png"; sourceTree = "<group>"; };
+		1FF0B59D18DB2FBC00CE4FB1 /* SorceryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SorceryViewController.h; sourceTree = "<group>"; };
+		1FF0B59E18DB2FBC00CE4FB1 /* SorceryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SorceryViewController.m; sourceTree = "<group>"; };
+		1FF0B5A018DB2FD000CE4FB1 /* SorceryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SorceryView.h; sourceTree = "<group>"; };
+		1FF0B5A118DB2FD000CE4FB1 /* SorceryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SorceryView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F97AECA18C116C100B618F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F36B55618D735D200A19BE1 /* Security.framework in Frameworks */,
+				1F97AED318C116C100B618F4 /* CoreGraphics.framework in Frameworks */,
+				1F97AED518C116C100B618F4 /* UIKit.framework in Frameworks */,
+				1F97AED118C116C100B618F4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F97AEEB18C116C100B618F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F97AEF018C116C100B618F4 /* XCTest.framework in Frameworks */,
+				1F97AEF218C116C100B618F4 /* UIKit.framework in Frameworks */,
+				1F97AEF118C116C100B618F4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F42CB0018CF70D200AC1F85 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1F42CAFD18CF70CF00AC1F85 /* lowFareAPI.h */,
+				1F42CAFE18CF70D000AC1F85 /* lowFareAPI.m */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		1F97AEC418C116C100B618F4 = {
+			isa = PBXGroup;
+			children = (
+				1F97AED618C116C100B618F4 /* Airfare8Ball */,
+				1F97AEF518C116C100B618F4 /* Airfare8BallTests */,
+				1F97AECF18C116C100B618F4 /* Frameworks */,
+				1F97AECE18C116C100B618F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F97AECE18C116C100B618F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F97AECD18C116C100B618F4 /* Airfare8Ball.app */,
+				1F97AEEE18C116C100B618F4 /* Airfare8BallTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F97AECF18C116C100B618F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F36B55518D735D200A19BE1 /* Security.framework */,
+				1F97AED018C116C100B618F4 /* Foundation.framework */,
+				1F97AED218C116C100B618F4 /* CoreGraphics.framework */,
+				1F97AED418C116C100B618F4 /* UIKit.framework */,
+				1F97AEEF18C116C100B618F4 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1F97AED618C116C100B618F4 /* Airfare8Ball */ = {
+			isa = PBXGroup;
+			children = (
+				1F97AEDF18C116C100B618F4 /* AppDelegate.h */,
+				1F97AEE018C116C100B618F4 /* AppDelegate.m */,
+				1F21741918CE3C770075328D /* DateInputViewController.h */,
+				1F21741A18CE3C770075328D /* DateInputViewController.m */,
+				1F97AEE218C116C100B618F4 /* Main.storyboard */,
+				1FF0B59C18DB2FA000CE4FB1 /* Sorcery */,
+				1FF0B59B18DB2F8B00CE4FB1 /* AirFare */,
+				1F97AF0818C119AC00B618F4 /* ResultViewController.h */,
+				1F97AF0918C119AC00B618F4 /* ResultViewController.m */,
+				1F42CB0018CF70D200AC1F85 /* Services */,
+				1F97AEE818C116C100B618F4 /* Images.xcassets */,
+				1F97AED718C116C100B618F4 /* Supporting Files */,
+			);
+			path = Airfare8Ball;
+			sourceTree = "<group>";
+		};
+		1F97AED718C116C100B618F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F36B55718D7360400A19BE1 /* KeychainItemWrapper.h */,
+				1F36B55818D7360400A19BE1 /* KeychainItemWrapper.m */,
+				1FD34C1418D0CD1A00648A09 /* responseArt */,
+				1F42CAFA18CF684700AC1F85 /* AppVariables.h */,
+				1F42CAFB18CF684700AC1F85 /* AppVariables.m */,
+				1F08828D18D37681008A4FA1 /* TPKeyboardAvoidingScrollView.h */,
+				1F08828E18D37681008A4FA1 /* TPKeyboardAvoidingScrollView.m */,
+				1F08829018D376A8008A4FA1 /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
+				1F08829118D376A8008A4FA1 /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
+				1F42CAF718CF67A200AC1F85 /* AppConstants.h */,
+				1F97AED818C116C100B618F4 /* Airfare8Ball-Info.plist */,
+				1F97AED918C116C100B618F4 /* InfoPlist.strings */,
+				1F97AEDC18C116C100B618F4 /* main.m */,
+				1F97AEDE18C116C100B618F4 /* Airfare8Ball-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1F97AEF518C116C100B618F4 /* Airfare8BallTests */ = {
+			isa = PBXGroup;
+			children = (
+				1F97AEFB18C116C100B618F4 /* Airfare8BallTests.m */,
+				1F97AEF618C116C100B618F4 /* Supporting Files */,
+			);
+			path = Airfare8BallTests;
+			sourceTree = "<group>";
+		};
+		1F97AEF618C116C100B618F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F97AEF718C116C100B618F4 /* Airfare8BallTests-Info.plist */,
+				1F97AEF818C116C100B618F4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1FD34C1418D0CD1A00648A09 /* responseArt */ = {
+			isa = PBXGroup;
+			children = (
+				1FD34C1518D0CD1A00648A09 /* 0-responseArt-00.png */,
+				1FD34C1818D0CD1A00648A09 /* 0-responseArt-01.png */,
+				1FD34C1918D0CD1A00648A09 /* 0-responseArt-02.png */,
+				1FD34C1A18D0CD1A00648A09 /* 0-responseArt-03.png */,
+				1FD34C1B18D0CD1A00648A09 /* 0-responseArt-04.png */,
+				1FD34C1618D0CD1A00648A09 /* 1-responseArt-00.png */,
+				1FD34C1C18D0CD1A00648A09 /* 1-responseArt-01.png */,
+				1FD34C1D18D0CD1A00648A09 /* 1-responseArt-02.png */,
+				1FD34C1E18D0CD1A00648A09 /* 1-responseArt-03.png */,
+				1FD34C1F18D0CD1A00648A09 /* 1-responseArt-04.png */,
+				1FD34C2018D0CD1A00648A09 /* 1-responseArt-05.png */,
+				1FD34C2118D0CD1A00648A09 /* 1-responseArt-06.png */,
+				1FD34C2218D0CD1A00648A09 /* 1-responseArt-07.png */,
+				1FD34C2318D0CD1A00648A09 /* 1-responseArt-08.png */,
+				1FD34C1718D0CD1A00648A09 /* 2-responseArt-00.png */,
+				1FD34C2418D0CD1A00648A09 /* 2-responseArt-01.png */,
+				1FD34C2518D0CD1A00648A09 /* 2-responseArt-02.png */,
+				1FD34C2618D0CD1A00648A09 /* 2-responseArt-03.png */,
+				1FD34C2718D0CD1A00648A09 /* 2-responseArt-04.png */,
+			);
+			path = responseArt;
+			sourceTree = "<group>";
+		};
+		1FF0B59B18DB2F8B00CE4FB1 /* AirFare */ = {
+			isa = PBXGroup;
+			children = (
+				1FC518AD18C7A6350057F183 /* AirFareView.h */,
+				1FC518AE18C7A6350057F183 /* AirFareView.m */,
+				1F97AEE518C116C100B618F4 /* AirfareViewController.h */,
+				1F97AEE618C116C100B618F4 /* AirfareViewController.m */,
+			);
+			name = AirFare;
+			sourceTree = "<group>";
+		};
+		1FF0B59C18DB2FA000CE4FB1 /* Sorcery */ = {
+			isa = PBXGroup;
+			children = (
+				1FF0B59D18DB2FBC00CE4FB1 /* SorceryViewController.h */,
+				1FF0B59E18DB2FBC00CE4FB1 /* SorceryViewController.m */,
+				1FF0B5A018DB2FD000CE4FB1 /* SorceryView.h */,
+				1FF0B5A118DB2FD000CE4FB1 /* SorceryView.m */,
+			);
+			name = Sorcery;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F97AECC18C116C100B618F4 /* Airfare8Ball */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F97AEFF18C116C100B618F4 /* Build configuration list for PBXNativeTarget "Airfare8Ball" */;
+			buildPhases = (
+				1F97AEC918C116C100B618F4 /* Sources */,
+				1F97AECA18C116C100B618F4 /* Frameworks */,
+				1F97AECB18C116C100B618F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Airfare8Ball;
+			productName = Airfare8Ball;
+			productReference = 1F97AECD18C116C100B618F4 /* Airfare8Ball.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F97AEED18C116C100B618F4 /* Airfare8BallTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F97AF0218C116C100B618F4 /* Build configuration list for PBXNativeTarget "Airfare8BallTests" */;
+			buildPhases = (
+				1F97AEEA18C116C100B618F4 /* Sources */,
+				1F97AEEB18C116C100B618F4 /* Frameworks */,
+				1F97AEEC18C116C100B618F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F97AEF418C116C100B618F4 /* PBXTargetDependency */,
+			);
+			name = Airfare8BallTests;
+			productName = Airfare8BallTests;
+			productReference = 1F97AEEE18C116C100B618F4 /* Airfare8BallTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F97AEC518C116C100B618F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Sabre Holdings";
+				TargetAttributes = {
+					1F97AEED18C116C100B618F4 = {
+						TestTargetID = 1F97AECC18C116C100B618F4;
+					};
+				};
+			};
+			buildConfigurationList = 1F97AEC818C116C100B618F4 /* Build configuration list for PBXProject "Airfare8Ball" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F97AEC418C116C100B618F4;
+			productRefGroup = 1F97AECE18C116C100B618F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F97AECC18C116C100B618F4 /* Airfare8Ball */,
+				1F97AEED18C116C100B618F4 /* Airfare8BallTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F97AECB18C116C100B618F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FD34C3818D0CD1A00648A09 /* 2-responseArt-02.png in Resources */,
+				1FD34C2D18D0CD1A00648A09 /* 0-responseArt-03.png in Resources */,
+				1FD34C3118D0CD1A00648A09 /* 1-responseArt-03.png in Resources */,
+				1FD34C2B18D0CD1A00648A09 /* 0-responseArt-01.png in Resources */,
+				1FD34C3718D0CD1A00648A09 /* 2-responseArt-01.png in Resources */,
+				1FD34C2918D0CD1A00648A09 /* 1-responseArt-00.png in Resources */,
+				1F97AEE918C116C100B618F4 /* Images.xcassets in Resources */,
+				1FD34C3318D0CD1A00648A09 /* 1-responseArt-05.png in Resources */,
+				1FD34C3918D0CD1A00648A09 /* 2-responseArt-03.png in Resources */,
+				1FD34C2818D0CD1A00648A09 /* 0-responseArt-00.png in Resources */,
+				1FD34C2E18D0CD1A00648A09 /* 0-responseArt-04.png in Resources */,
+				1FD34C2A18D0CD1A00648A09 /* 2-responseArt-00.png in Resources */,
+				1FD34C3218D0CD1A00648A09 /* 1-responseArt-04.png in Resources */,
+				1FD34C2C18D0CD1A00648A09 /* 0-responseArt-02.png in Resources */,
+				1FD34C3A18D0CD1A00648A09 /* 2-responseArt-04.png in Resources */,
+				1F97AEDB18C116C100B618F4 /* InfoPlist.strings in Resources */,
+				1FD34C3518D0CD1A00648A09 /* 1-responseArt-07.png in Resources */,
+				1FD34C3418D0CD1A00648A09 /* 1-responseArt-06.png in Resources */,
+				1FD34C3618D0CD1A00648A09 /* 1-responseArt-08.png in Resources */,
+				1FD34C3018D0CD1A00648A09 /* 1-responseArt-02.png in Resources */,
+				1FD34C2F18D0CD1A00648A09 /* 1-responseArt-01.png in Resources */,
+				1F97AEE418C116C100B618F4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F97AEEC18C116C100B618F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F97AEFA18C116C100B618F4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F97AEC918C116C100B618F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F42CAFF18CF70D000AC1F85 /* lowFareAPI.m in Sources */,
+				1F08828F18D37681008A4FA1 /* TPKeyboardAvoidingScrollView.m in Sources */,
+				1FF0B5A218DB2FD000CE4FB1 /* SorceryView.m in Sources */,
+				1F21741B18CE3C770075328D /* DateInputViewController.m in Sources */,
+				1F97AEE718C116C100B618F4 /* AirfareViewController.m in Sources */,
+				1F08829218D376A8008A4FA1 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
+				1F97AEE118C116C100B618F4 /* AppDelegate.m in Sources */,
+				1FF0B59F18DB2FBC00CE4FB1 /* SorceryViewController.m in Sources */,
+				1F42CAFC18CF684700AC1F85 /* AppVariables.m in Sources */,
+				1F36B55918D7360400A19BE1 /* KeychainItemWrapper.m in Sources */,
+				1FC518AF18C7A6350057F183 /* AirFareView.m in Sources */,
+				1F97AF0A18C119AC00B618F4 /* ResultViewController.m in Sources */,
+				1F97AEDD18C116C100B618F4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F97AEEA18C116C100B618F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F97AEFC18C116C100B618F4 /* Airfare8BallTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F97AEF418C116C100B618F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F97AECC18C116C100B618F4 /* Airfare8Ball */;
+			targetProxy = 1F97AEF318C116C100B618F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1F97AED918C116C100B618F4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F97AEDA18C116C100B618F4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1F97AEE218C116C100B618F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F97AEE318C116C100B618F4 /* Base */,
+				1F97AF0C18C11A7800B618F4 /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F97AEF818C116C100B618F4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F97AEF918C116C100B618F4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F97AEFD18C116C100B618F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1F97AEFE18C116C100B618F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F97AF0018C116C100B618F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Airfare8Ball/Airfare8Ball-Prefix.pch";
+				INFOPLIST_FILE = "Airfare8Ball/Airfare8Ball-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1F97AF0118C116C100B618F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: SABRE HOLDINGS CORPORATION";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Airfare8Ball/Airfare8Ball-Prefix.pch";
+				INFOPLIST_FILE = "Airfare8Ball/Airfare8Ball-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1F97AF0318C116C100B618F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Airfare8Ball.app/Airfare8Ball";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Airfare8Ball/Airfare8Ball-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Airfare8BallTests/Airfare8BallTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1F97AF0418C116C100B618F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Airfare8Ball.app/Airfare8Ball";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Airfare8Ball/Airfare8Ball-Prefix.pch";
+				INFOPLIST_FILE = "Airfare8BallTests/Airfare8BallTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F97AEC818C116C100B618F4 /* Build configuration list for PBXProject "Airfare8Ball" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F97AEFD18C116C100B618F4 /* Debug */,
+				1F97AEFE18C116C100B618F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F97AEFF18C116C100B618F4 /* Build configuration list for PBXNativeTarget "Airfare8Ball" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F97AF0018C116C100B618F4 /* Debug */,
+				1F97AF0118C116C100B618F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F97AF0218C116C100B618F4 /* Build configuration list for PBXNativeTarget "Airfare8BallTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F97AF0318C116C100B618F4 /* Debug */,
+				1F97AF0418C116C100B618F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F97AEC518C116C100B618F4 /* Project object */;
+}

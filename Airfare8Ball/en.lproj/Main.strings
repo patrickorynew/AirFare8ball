@@ -1,0 +1,27 @@
+
+/* Class = "IBUIViewController"; title = "Loading Screen"; ObjectID = "1WX-Co-vlL"; */
+"1WX-Co-vlL.title" = "Loading Screen";
+
+/* Class = "IBUILabel"; text = "Shake to Ask"; ObjectID = "9b2-Kb-gH9"; */
+"9b2-Kb-gH9.text" = "Shake to Ask";
+
+/* Class = "IBUILabel"; text = "Depart on:"; ObjectID = "U3W-jg-2cW"; */
+"U3W-jg-2cW.text" = "Depart on:";
+
+/* Class = "IBUILabel"; text = "From:"; ObjectID = "a5C-wz-qOl"; */
+"a5C-wz-qOl.text" = "From:";
+
+/* Class = "IBUILabel"; text = "Airfare Details"; ObjectID = "gfY-Q2-jyu"; */
+"gfY-Q2-jyu.text" = "Airfare Details";
+
+/* Class = "IBUILabel"; text = "To:"; ObjectID = "hAv-Rw-X6k"; */
+"hAv-Rw-X6k.text" = "To:";
+
+/* Class = "IBUILabel"; text = "Return on:"; ObjectID = "sVc-P4-g7i"; */
+"sVc-P4-g7i.text" = "Return on:";
+
+/* Class = "IBUILabel"; text = "Airfare Details"; ObjectID = "vGy-kS-RUJ"; */
+"vGy-kS-RUJ.text" = "Airfare Details";
+
+/* Class = "IBUIViewController"; title = "MainView"; ObjectID = "vXZ-lx-hvc"; */
+"vXZ-lx-hvc.title" = "MainView";
