@@ -3,10 +3,14 @@ AirFare8ball
 
 A quick and easy prototype iOS app that helps you decide whether to buy now or wait using the Low Fare Forecast API
 
+Using the App
+==============
+
+This App is provided 'as is' for the purposes of demonstrating the functionality of the Sabre Low Fare Forecast API. Please use this code as a starting point for implementing your own solutions. This App requires to have an existing Key, for more information on registering to get a Test Key account please visit Sabre Dev Studio@http://developer.sabre.com
+
 Additional Resources
 ====================
 Low Fare Forecast and many other Sabre API documentation and resources can be found http://developer.sabre.com
-
 
 Disclaimer of Warranty and Limitation of Liability
 ============
