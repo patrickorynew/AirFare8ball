@@ -3,6 +3,10 @@ AirFare8ball
 
 A quick and easy iOS app that helps you decide whether to buy now or wait using the Low Fare Forecast API
 
+Additional Resources
+====================
+Low Fare Forecast and many other Sabre API documentation and resources can be found http://developer.sabre.com
+
 
 Disclaimer of Warranty and Limitation of Liability
 ============
