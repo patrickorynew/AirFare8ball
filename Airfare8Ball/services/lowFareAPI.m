@@ -39,7 +39,7 @@ BOOL isFetch;
     NSString *apiKey = @"You must add your API key here";
     NSLog(@"Client ID Key: %@",apiKey);
     isFetch = YES;
-    NSURL *url = [NSURL URLWithString:@"https://api.test.sabre.com/v1/auth/token"];
+    NSURL *url = [NSURL URLWithString:@"https://api.test.sabre.com/v2/auth/token"];
 	NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url];
 	[request setCachePolicy:NSURLRequestReloadIgnoringLocalAndRemoteCacheData];
 	[request setTimeoutInterval:URL_REQUEST_TIMEOUT];
